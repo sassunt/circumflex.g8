@@ -1,9 +1,9 @@
 package $organization$
 
-import ru.cirucumflex._
-import ru.cirucumflex.core._
-import ru.cirucumflex.freemarker._
-import ru.cirucumflex.web._
+import ru.circumflex._
+import ru.circumflex.core._
+import ru.circumflex.freemarker._
+import ru.circumflex.web._
 
 class MyRouter extends Router {
     get("/") = "<h1>it works!</h1>"
